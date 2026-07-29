@@ -17,3 +17,17 @@ const useToggle = (initialValue: boolean = false) => {
 };
 
 export default useToggle;
+
+/** Example usage
+
+function App() {
+  const [isDarkMode, toggleDarkMode] = useToggle(false);
+
+  return (
+    <button onClick={toggleDarkMode}>
+      Toggle color theme
+    </button>
+  );
+}
+
+*/
